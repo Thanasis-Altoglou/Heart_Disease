@@ -1,15 +1,16 @@
 # Heart Disease
 
 ## Goal:
-The purpose of this project is to create multiple machine learning models taht can predict whether or not a person has presence of heart disease based on physical features of that person (age, cholesterol, etc.)
+The purpose of this project is to create multiple machine learning models taht can predict whether or not a person has presence of heart disease based on physical features of that person (age, cholesterol, etc.).
+
 This notebook consists of 5 parts:
   1. Get a dataset to work with
   2. Exploratory Data Analysis
   3. Prepare the data for training
   4. Building the models
       - Logistic Regression with Cross Validation
-      - K Nearest Neighbors
-      - Random Forest
+      - K Nearest Neighbors with elbow method for choosing the most optimal K value
+      - Random Forest with Grid Search CV
   5. Choose the best model and make a prediction
  ---
  ## About the data:
